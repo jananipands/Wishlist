@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:theme="@style/Theme.Wishlist"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/textview"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="188dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/nameTextView"
+        android:padding="15dp"
+        android:text="@string/textview"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/urlTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_below="@id/nameTextView"
+        android:layout_marginTop="3dp"
+        android:textAlignment="textEnd"
+        android:paddingStart="0dp"
+        android:paddingEnd="15dp"
+        android:textSize="20sp"
+        android:text="@string/textview" />
+
+
+</RelativeLayout>
+
